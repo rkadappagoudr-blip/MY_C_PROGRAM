@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Name: ROHIT\n");
+    printf("Age: 18\n");
+    printf("Location:HAVERI\n");
+}
+
+    
+
