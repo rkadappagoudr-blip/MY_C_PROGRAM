@@ -1,0 +1,6 @@
+#include<stdio.h>
+int main()
+{
+    int num[5]={1,2,3,4,5};
+    printf("the element of 3rd index is %d",num[3]);
+}
