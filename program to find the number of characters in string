@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char string [10];
+    printf("enter your string: ");
+    scanf("%s",&string);
+    int result= strlen(string);
+    printf("The entered string has %d characters",result);
+}
