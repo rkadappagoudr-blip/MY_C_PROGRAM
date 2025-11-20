@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name1[10]="Rohit";
+    char name2[10]="Harshu";
+    int com= strcmp("Rohit","Harshu");
+    printf("The result is:%d",com);
+}
