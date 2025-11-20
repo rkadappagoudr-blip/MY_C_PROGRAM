@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+  char name[20]="Rohit";
+  strcat (name,"Harshu");
+  printf("The result is %s",name);
+}
