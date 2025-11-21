@@ -1,0 +1,18 @@
+#include<stdio.h>
+int ispass(int marks1,int marks2,int marks3){
+    if(marks1>40&&marks2>40&&marks3>40){
+        return 1;}
+    else{
+        return 0;
+    }
+}
+int main(){
+    int marks1,marks2,marks3;
+    printf("Enter the three marks: ");
+    scanf("%d%d%d",&marks1,&marks2,&marks3);
+    if (ispass(marks1,marks2,marks3)){
+        printf("passed");}
+    else{
+      printf("Failed,Happy sankranti");
+    }
+}    
