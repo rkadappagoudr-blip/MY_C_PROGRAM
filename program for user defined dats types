@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct Rohit{
+    int age;
+    char account[12];
+     float marks;
+};
+int main(){
+    struct Rohit H;
+    printf("Enter the age : ");
+    scanf("%d",&H.age);
+    printf("enter the Account: ");
+    scanf("%s",&H.account);
+    printf("Enter the marks: ");
+    scanf("%f",&H.marks);
+    printf("The details of Rohit are %d ,%s , %f ",H.age,H.account,H.marks);
+}
