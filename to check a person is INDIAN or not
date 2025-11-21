@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int adhaar=1234567890;
+    int pan =234567890;
+    int apar= 34567890;
+    int DL= 4567890;
+    int pp=567890;
+    int KYC;
+    printf("enter the number :");
+    scanf("%d",&KYC);
+    if(adhaar==KYC){
+    printf("VERIFIED");}
+    else if(pan==KYC){
+    printf("VERIFIED");}
+     else if(apar==KYC){
+    printf("VERIFIED");}
+    else if(DL==KYC){
+    printf("VERIFIED");}
+    else if(pp==KYC){
+    printf("VERIFIED");}
+    else{
+    printf("PAKISTANI");}
+}
