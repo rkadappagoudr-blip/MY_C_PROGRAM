@@ -1,0 +1,15 @@
+#include<stdio.h>
+enum days{
+    sunday,
+    monday,
+    tuesday,
+    wednesday,
+    thursday,
+    friday,
+    saturday
+};
+int main(){
+    enum days today;
+    today=saturday;
+    printf("today is day %d",today);
+}
