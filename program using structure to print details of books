@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct books{
+    char name[20];
+    char author[25];
+    int year;
+};
+int main(){
+    struct books lib;
+    printf("enter the name of book: ");
+    scanf("%s",&lib.name);
+    printf("enter the author name :");
+    scanf("%s",&lib.author);
+    printf("enter the publication year: ");
+    scanf("%d",&lib.year);
+    printf("Book name:%s\n author name:%s\n year:%d\n",lib.name,lib.author,lib.year);
+}
