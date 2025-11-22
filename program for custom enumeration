@@ -1,0 +1,11 @@
+#include<stdio.h>
+enum constants{
+    constant1=10,
+    constant2=20,
+    constant3=38
+};
+int main(){
+    enum constants R;
+    R=constant3;
+    printf("constant is  %d", R);
+}
